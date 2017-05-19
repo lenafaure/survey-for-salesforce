@@ -33,9 +33,9 @@ session_start();
 require_once ('soapclient/SforcePartnerClient.php');
 require_once ('soapclient/SforceEnterpriseClient.php');
 
-define("USERNAME", "api@ofsfdc.demo");
-define("PASSWORD", "Salesforce2016");
-define("SECURITY_TOKEN", "5HTyeNg0FgIewSKogCDqtqJ0");
+define("USERNAME", "YOUR_USERNAME");
+define("PASSWORD", "YOUR_PASSWORD");
+define("SECURITY_TOKEN", "YOUR_TOKEN");
 
 $callId = $_POST['callId'];
 // echo $callId;
